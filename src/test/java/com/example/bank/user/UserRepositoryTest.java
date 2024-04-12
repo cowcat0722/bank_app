@@ -14,7 +14,7 @@ class UserRepositoryTest {
     UserRepository userRepository;
 
     @Test
-    void findByUsernameAndPassword() {
+    public void findByUsernameAndPassword_test() {
         // given
         String username = "ssar";
         String password = "1234";
